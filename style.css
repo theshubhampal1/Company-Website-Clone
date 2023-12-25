@@ -1,0 +1,621 @@
+/* Project CSS Source Code by shubhampal.co.in */
+* {
+    font-family: arial;
+}
+
+:root {
+    --bg-mycolor: #fe6500;
+    --txt-mycolor: #fe6500;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(254, 101, 0, .3);
+    box-shadow: 0px 0px 5px black inset;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: linear-gradient(45deg, red, var(--bg-mycolor));
+}
+
+body::-webkit-scrollbar-corner {
+    background: rgba(254, 101, 0, .3);
+}
+
+.bg-mycolor {
+    background: var(--bg-mycolor) !important;
+}
+
+.txt-mycolor {
+    color: var(--txt-mycolor) !important;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#outer {
+    min-height: 1000px;
+    width: 1200px;
+    border: 1px solid #808080;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 50px;
+    width: 1200px;
+    display: flex;
+}
+
+#logo {
+    height: 50px;
+    width: 300px;
+    background: black;
+    padding: 2px 90px;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 45px;
+    width: 200px;
+}
+
+#header {
+    height: 50px;
+    width: 1200px;
+    background: black;
+}
+
+#header1 {
+    height: 35px;
+    width: 1200px;
+    display: flex;
+    background: rgb(255, 230, 255);
+}
+
+#menu {
+    height: 50px;
+    width: 900px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    height: 35px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: white;
+    transform: translateY(-8px);
+    margin-left: 2px;
+    border-radius: 3px;
+    transition: all .5s;
+}
+
+#menu ul li:hover {
+    background: var(--bg-mycolor);
+    transition: all .5s;
+}
+
+.r {
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.r a {
+    text-decoration: none;
+    color: black;
+}
+
+.r img {
+    height: 30px;
+
+}
+
+#slider {
+    height: 475px;
+    width: 1200px;
+    background: url(Company-Website/6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slider {
+    height: 475px;
+    width: 1200px;
+    background: rgba(0, 0, 0, .5);
+}
+
+#s1 {
+    height: 425px;
+    width: 400px;
+    background: rgba(255, 255, 255, .4);
+    float: left;
+    margin: 25px 50px;
+    border-radius: 5px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#s2 {
+    height: 475px;
+    width: 700px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 120px 50px 10px 50px;
+    box-sizing: border-box;
+}
+
+.txt1 {
+    font-size: 45px;
+    color: white;
+}
+
+.t {
+    height: 50px;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.ta {
+    height: 100px;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.btn {
+    height: 50px;
+    width: 100%;
+    border-radius: 2px;
+    border-style: none;
+    background: var(--bg-mycolor);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#services {
+    min-height: 175px;
+    width: 1200px;
+    background: #e8e8ff;
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+
+.s1 {
+    min-height: 130px;
+    width: 230px;
+    background: rgba(0, 0, 0, .8);
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    transition: all .5s;
+    font-size: 20px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.s1:hover {
+    background: white;
+    color: rgba(0, 0, 0, .8);
+    transform: scale(1.04);
+    transition: all .5s;
+}
+
+#content {
+    min-height: 500px;
+    width: 1200px;
+    padding: 15px 100px;
+    box-sizing: border-box;
+}
+
+#content p {
+    text-align: justify;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: 15px groove rgba(0, 0, 0, .3);
+}
+
+#register {
+    min-height: 500px;
+    width: 1200px;
+    background: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+#gallery {
+    min-height: 600px;
+    width: 1200px;
+    padding: 15px 150px;
+    box-sizing: border-box;
+}
+
+.row {
+    min-height: 200px;
+    width: 900px;
+}
+
+.col {
+    min-height: 160px;
+    width: 260px;
+    background: rgba(0, 0, 0, .8);
+    float: left;
+    margin: 20px;
+}
+
+.c1 {
+    background: url(Company-Website/1.jpg);
+    background-size: 100% 100%;
+}
+
+.c2 {
+    background: url(Company-Website/2.jpg);
+    background-size: 100% 100%;
+}
+
+.c3 {
+    background: url(Company-Website/3.jpg);
+    background-size: 100% 100%;
+}
+
+.c4 {
+    background: url(Company-Website/4.jpg);
+    background-size: 100% 100%;
+}
+
+.c5 {
+    background: url(Company-Website/5.jpg);
+    background-size: 100% 100%;
+}
+
+.c6 {
+    background: url(Company-Website/6.jpg);
+    background-size: 100% 100%;
+}
+
+.col div {
+    min-height: 160px;
+    width: 260px;
+    background: rgba(0, 0, 0, .8);
+    transition: all .5s;
+    color: white;
+    font-size: 22px;
+    line-height: 160px;
+    text-align: center;
+}
+
+.col div:hover {
+    transform: perspective(400px) rotateX(80deg);
+    transition: all .5s;
+    transform-origin: top;
+    background: var(--bg-mycolor);
+}
+
+#contactus {
+    min-height: 500px;
+    width: 1200px;
+    background: var(--bg-mycolor);
+}
+
+#team {
+    min-height: 400px;
+    width: 1200px;
+    background: url(Company-Website/7.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+.team-block1 {
+    min-height: 400px;
+    width: 1200px;
+    background: rgba(0, 0, 0, .8);
+    padding-top: 20px;
+    box-sizing: 20px;
+}
+
+.team-block2 {
+    min-height: 400px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team {
+    height: 300px;
+    width: 240px;
+    border-radius: 20px 20px 0px 0px;
+    border: 6px solid #c2c2c2;
+    background: #f2f2f2;
+    transition: all .5s;
+}
+
+.team:hover {
+    transform: rotate(5deg);
+    transition: all .5s;
+}
+
+.team1 {
+    height: 100px;
+    width: 240px;
+    background: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.team-img1 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid #c2c2c2;
+    box-sizing: border-box;
+    position: relative;
+    top: 30px;
+    left: 55px;
+}
+
+.team-img2 {
+    height: 121px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.team2 {
+    height: 155px;
+    width: 240px;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 65px 25px 0px 25px;
+    box-sizing: border-box;
+    font-family: arial;
+    color: rgb(81, 81, 81);
+}
+
+.team-heading1 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.team-heading2 {
+    font-size: 13px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.team-para {
+    font-size: 11px;
+    margin: 0px;
+}
+
+.team3 {
+    height: 45px;
+    width: 240px;
+    text-align: center;
+    font-family: arial;
+}
+
+.team3 input {
+    height: 24px;
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    font-size: 11px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+#login {
+    min-height: 400px;
+    width: 1200px;
+    background: #e8e8ff;
+}
+
+#footer1 {
+    min-height: 300px;
+    width: 1200px;
+    background: rgba(0, 0, 0, .8);
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.footer1 {
+    height: 300px;
+    width: 300px;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    color: white;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.footer1 ul {
+    list-style: none;
+}
+
+.footer1>ul>li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer1 ul a li {
+    margin-bottom: 25px;
+    color: grey;
+}
+
+.footer1 ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer2 {
+    min-height: 40px;
+    width: 1200px;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+}
+
+.footer2 {
+    height: 40px;
+    width: 600px;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+    float: right;
+    font-size: 14px;
+}
+
+.footer2:last-child {
+    padding-left: 400px;
+    box-sizing: border-box;
+}
+
+.footer2 img {
+    height: 25px;
+    width: 25px;
+    margin: 0px 5px;
+    border-radius: 15px;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+#box3-2 {
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.box3-2 {
+    height: 500px;
+    width: 45%;
+}
+
+.inputbox1 {
+    height: 80px;
+    width: 100%;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+
+.inputbox2 {
+    height: 80px;
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.input1 {
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    background: #dfdfdf;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+.input2 {
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    background: #dfdfdf;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    margin: 0px;
+    height: 120px;
+    width: 100%;
+    resize: none;
+    margin-top: 5px;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+.btn {
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background: white;
+    font-weight: bold;
+    color: #fe6500;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#login-1 {
+    height: 350px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-1 {
+    height: 350px;
+    width: 45%;
+}
+
+/* Project CSS Source Code by shubhampal.co.in | All Rights Reseverd. */
